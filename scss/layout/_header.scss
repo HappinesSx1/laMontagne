@@ -1,0 +1,38 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    
+    .title-container{
+    }
+
+    nav {
+        max-width: 1200px;
+        width: 100%;
+        background-color: rgba(138, 138, 138, 0.3);
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .nav-left {
+            &:hover p {
+                background-color: rgba(138, 138, 138, 0.3);
+                color: white;
+            }
+
+            .act {
+                background: rgb(255, 255, 255);
+                color: black;
+            }
+            p{
+                &:hover {
+                    background: rgb(255, 255, 255) ;
+                    color: black;
+                }
+            }
+        }
+    }
+}
