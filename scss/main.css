@@ -15,25 +15,41 @@ header {
   align-items: center;
   flex-direction: column;
   height: 100vh;
+  position: relative;
 }
 header nav {
   max-width: 1200px;
   width: 100%;
   background-color: rgba(138, 138, 138, 0.3);
   color: white;
+  position: absolute;
+  bottom: 0;
+}
+header nav .nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-header nav .nav-left:hover p {
+header nav .nav-container .nav-left:hover p {
   background-color: rgba(138, 138, 138, 0.3);
   color: white;
 }
-header nav .nav-left .act {
+header nav .nav-container .nav-left .act {
   background: rgb(255, 255, 255);
   color: black;
 }
-header nav .nav-left p:hover {
+header nav .nav-container .nav-left p:hover {
   background: rgb(255, 255, 255);
   color: black;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body .div {
+  max-width: 1200px;
+  width: 100%;
+  background: #ffffff;
 }/*# sourceMappingURL=main.css.map */
