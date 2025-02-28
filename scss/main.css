@@ -68,12 +68,16 @@ header nav .nav-container .nav-right {
 }
 
 .body {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
+.body .card {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.body .div {
-  max-width: 1200px;
-  width: 100%;
+  flex-direction: column;
   background: #ffffff;
+  gap: 50px;
+  padding: 75px 20%;
 }/*# sourceMappingURL=main.css.map */
